@@ -1,0 +1,27 @@
+{
+  "id": "3091870f-d156-4446-acbc-d43348c3604b",
+  "name": "Customer Log Entry Customizations",
+  "publisher": "Uglješa Ćirić",
+  "version": "19.2.0.2022020301",
+  "brief": "Uglješa's Customer Log Entry Customizations",
+  "description": "Uglješa's App for Customer Log Entry Customizations",
+  "privacyStatement": "https://dev.azure.com/UgljesaCiric/_git/Customer%20Log%20Entry",
+  "EULA": "https://dev.azure.com/UgljesaCiric/_git/Customer%20Log%20Entry",
+  "help": "https://dev.azure.com/UgljesaCiric/_git/Customer%20Log%20Entry",
+  "url": "https://dev.azure.com/UgljesaCiric/_git/Customer%20Log%20Entry",
+  "logo": "./logo/BET.216x216.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 64851,
+      "to": 64900
+    }
+  ],
+  "features": ["TranslationFile"],
+  "contextSensitiveHelpUrl": "https://dev.azure.com/UgljesaCiric/_git/Customer%20Log%20Entry",
+  "resourceExposurePolicy": { "allowDebugging": true, "allowDownloadingSource": false, "includeSourceInSymbolFile": true },
+  "runtime": "8.0"
+}
