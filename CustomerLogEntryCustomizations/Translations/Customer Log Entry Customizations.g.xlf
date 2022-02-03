@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Customer Log Entry Customizations">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2497748375 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 2353549541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date of Modification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Date of Modification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 3156524383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Operation Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 3883264070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson/Purchaser Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Salespers./Purch. Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 3906472010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Source Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 1983230310 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time of Modification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field Time of Modification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2497748375 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 2353549541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date of Modification field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Date of Modification - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 3156524383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Operation Type field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Operation Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 3883264070 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Salesperson/Purchaser Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Salespers./Purch. Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 3906472010 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Source Page field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Source Page - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 1983230310 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time of Modification field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control Time of Modification - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 571630133 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 722298283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Executes the Log Entry action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Log Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 722298283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Log Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Log Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 999031242 - Action 722298283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Executes the Log Entry action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Log Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 999031242 - Action 722298283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Log Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Log Entry - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
