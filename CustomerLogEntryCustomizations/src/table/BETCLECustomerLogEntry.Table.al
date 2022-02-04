@@ -69,6 +69,7 @@ table 64851 "BET CLE Customer Log Entry"
         {
             Clustered = true;
         }
+        key(Key1; "Customer No.", "Operation Type") { }
     }
 
     trigger OnInsert()

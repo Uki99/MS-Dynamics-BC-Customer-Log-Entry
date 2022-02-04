@@ -53,6 +53,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BET CLE Customer Log Entry - Field User ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1951746423 - Method 775288583 - NamedType 1030360091" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1-%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Date in datatype of text, %2 is Time in datatype of text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method FindLastLogInserted - NamedType DateTimeTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951746423 - Method 655518204 - NamedType 2941794251" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No. %1 is entered on Document No. %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Customer No. , %2 is Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method LogCustomerNameAndNoActions - NamedType DescriptionInsertTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951746423 - Method 655518204 - NamedType 832234049" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No. %1 is removed from Document No. %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Customer No. , %2 is Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method LogCustomerNameAndNoActions - NamedType DescriptionDeleteTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1951746423 - Method 4262923037 - NamedType 447856632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Changed Field: Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method LogIfAddressChange - NamedType ChangeFieldTxt</note>
+        </trans-unit>
         <trans-unit id="Page 571630133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Log Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -108,6 +128,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Log Entry - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 2347485491 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Executes the Show Last Modified action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Show Last Modified - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 2347485491 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Show Last Modified</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Show Last Modified - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Control 3758348667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Specifies the value of the No. of Log Entries field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Control BET CLE No. of Log Entries - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 999031242 - Action 722298283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Executes the Log Entry action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -117,6 +152,11 @@
           <source>Log Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Log Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3645838006 - Field 3758348667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>No. of Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BET CLE Customer Ext. - Field BET CLE No. of Log Entries - Property Caption</note>
         </trans-unit>
       </group>
     </body>
