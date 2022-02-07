@@ -21,5 +21,26 @@ pageextension 64851 "BET CLE Customer List Ext" extends "Customer List"
                 RunPageLink = "Customer No." = field("No.");
             }
         }
+        addlast(Reporting)
+        {
+            action("BET CLE Print Log Entries")
+            {
+                ApplicationArea = All;
+                Caption = 'Print Log Entries';
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                Image = ReviewWorksheet;
+                ToolTip = 'Executes the Print Log Entries action.';
+
+                trigger OnAction()
+                var
+                    Customer: Record Customer;
+                begin
+                    CurrPage.SetSelectionFilter(Customer);
+                    Report.Run(Report::"BET CLE Customers Log Entries", true, true, Customer);
+                end;
+            }
+        }
     }
 }

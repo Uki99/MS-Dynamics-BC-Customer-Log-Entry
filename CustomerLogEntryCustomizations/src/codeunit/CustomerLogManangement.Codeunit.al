@@ -48,10 +48,12 @@ codeunit 64851 "Customer Log Manangement"
         BETCLECustomerLogEntry: Record "BET CLE Customer Log Entry";
         Date, Time : Text;
         DateTimeTok: Label '%1-%2', Comment = '%1 is Date in datatype of text, %2 is Time in datatype of text';
+        NoEntriesErr: Label 'There are no customer log entries for customer number: %1', Comment = '%1 is Customer No.';
     begin
         BETCLECustomerLogEntry.SetRange("Customer No.", "Customer No.");
         BETCLECustomerLogEntry.SetRange("Operation Type", Enum::"BET CLE Operation Type"::Insert);
-        BETCLECustomerLogEntry.FindLast();
+        if not BETCLECustomerLogEntry.FindLast() then
+            Exit(StrSubstNo(NoEntriesErr, "Customer No."));
 
         Date := Format(BETCLECustomerLogEntry."Date of Modification", 0, '<Day,2>/<Month,2>/<Year4>');
         Time := Format(BETCLECustomerLogEntry."Time of Modification", 0, '<Hours24,2>:<Minutes,2>');

@@ -3,7 +3,9 @@
 /// </summary>
 table 64851 "BET CLE Customer Log Entry"
 {
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
+    LookupPageId = "BET CLE Customer Log Entries";
+    DrillDownPageId = "BET CLE Customer Log Entries";
 
     fields
     {
@@ -78,10 +80,11 @@ table 64851 "BET CLE Customer Log Entry"
     end;
 
     local procedure GetUserId()
-    var
-        User: Record User;
+    //var
+    //User: Record User;
     begin
-        User.Get();
-        Rec."User ID" := User."User Name";
+        //User.Get();
+        //Rec."User ID" := User."User Name";
+        Rec."User ID" := CopyStr(UserId(), 1, MaxStrLen(Rec."User ID"));
     end;
 }

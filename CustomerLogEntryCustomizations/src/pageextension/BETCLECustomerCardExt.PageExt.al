@@ -16,6 +16,7 @@ pageextension 64852 "BET CLE Customer Card Ext" extends "Customer Card"
             }
         }
     }
+
     actions
     {
         addlast(Processing)
@@ -48,6 +49,27 @@ pageextension 64852 "BET CLE Customer Card Ext" extends "Customer Card"
                     CustomerLogManangement: Codeunit "Customer Log Manangement";
                 begin
                     Message('Last Date Modified: %1', CustomerLogManangement.FindLastLogInserted(Rec."No."));
+                end;
+            }
+        }
+        addlast(Reporting)
+        {
+            action("BET CLE Print Log Entries")
+            {
+                ApplicationArea = All;
+                Caption = 'Print Log Entries';
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Report;
+                Image = ReviewWorksheet;
+                ToolTip = 'Executes the Print Log Entries action.';
+
+                trigger OnAction()
+                var
+                    Customer: Record Customer;
+                begin
+                    CurrPage.SetSelectionFilter(Customer);
+                    Report.Run(Report::"BET CLE Customers Log Entries", true, true, Customer);
                 end;
             }
         }

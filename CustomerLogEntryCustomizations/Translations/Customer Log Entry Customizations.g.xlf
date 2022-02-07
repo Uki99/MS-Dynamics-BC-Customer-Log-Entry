@@ -58,6 +58,11 @@
           <note from="Developer" annotates="general" priority="2">%1 is Date in datatype of text, %2 is Time in datatype of text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method FindLastLogInserted - NamedType DateTimeTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1951746423 - Method 775288583 - NamedType 1262874586" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no customer log entries for customer number: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 is Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Customer Log Manangement - Method FindLastLogInserted - NamedType NoEntriesErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1951746423 - Method 655518204 - NamedType 2941794251" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer No. %1 is entered on Document No. %2</source>
           <note from="Developer" annotates="general" priority="2">%1 is Customer No. , %2 is Document No.</note>
@@ -118,6 +123,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BET CLE Customer Log Entries - Control User ID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Report 1888787932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BET CLE Customers Log Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1888787932 - NamedType 1678189836" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BET CLE Customers Log Entries - NamedType CurrPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1888787932 - NamedType 2010748607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report BET CLE Customers Log Entries - NamedType ReportHeaderCaptionLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2300401116 - Action 722298283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Executes the Log Entry action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -138,6 +158,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Show Last Modified - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 1503181754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Executes the Print Log Entries action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Print Log Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2300401116 - Action 1503181754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Print Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer Card Ext - Action BET CLE Print Log Entries - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2300401116 - Control 3758348667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Specifies the value of the No. of Log Entries field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -152,6 +182,16 @@
           <source>Log Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Log Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 999031242 - Action 1503181754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Executes the Print Log Entries action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Print Log Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 999031242 - Action 1503181754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Print Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BET CLE Customer List Ext - Action BET CLE Print Log Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3645838006 - Field 3758348667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>No. of Log Entries</source>
