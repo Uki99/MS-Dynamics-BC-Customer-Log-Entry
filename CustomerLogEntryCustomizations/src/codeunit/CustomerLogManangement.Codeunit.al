@@ -46,7 +46,7 @@ codeunit 64851 "Customer Log Manangement"
     procedure FindLastLogInserted("Customer No.": Code[20]): Text
     var
         BETCLECustomerLogEntry: Record "BET CLE Customer Log Entry";
-        Date, Time : Text;
+        DateTxt, TimeTxt : Text;
         DateTimeTok: Label '%1-%2', Comment = '%1 is Date in datatype of text, %2 is Time in datatype of text';
         NoEntriesErr: Label 'There are no customer log entries for customer number: %1', Comment = '%1 is Customer No.';
     begin
@@ -55,10 +55,10 @@ codeunit 64851 "Customer Log Manangement"
         if not BETCLECustomerLogEntry.FindLast() then
             Exit(StrSubstNo(NoEntriesErr, "Customer No."));
 
-        Date := Format(BETCLECustomerLogEntry."Date of Modification", 0, '<Day,2>/<Month,2>/<Year4>');
-        Time := Format(BETCLECustomerLogEntry."Time of Modification", 0, '<Hours24,2>:<Minutes,2>');
+        DateTxt := Format(BETCLECustomerLogEntry."Date of Modification", 0, '<Day,2>/<Month,2>/<Year4>');
+        TimeTxt := Format(BETCLECustomerLogEntry."Time of Modification", 0, '<Hours24,2>:<Minutes,2>');
 
-        Exit(StrSubstNo(DateTimeTok, Date, Time));
+        Exit(StrSubstNo(DateTimeTok, DateTxt, TimeTxt));
     end;
 
     local procedure InitEntryDateAndTime(var BETCLECustomerLogEntry: Record "BET CLE Customer Log Entry")
@@ -83,7 +83,7 @@ codeunit 64851 "Customer Log Manangement"
     var
         ChangeFieldTxt: Label 'Changed Field: Address';
     begin
-        if Rec.Address <> xRec.Address then
+        if (Rec.Address <> xRec.Address) or (xRec.Address = '') then
             InsertCustomerLogEntry(Rec."No.", ChangeFieldTxt, Page::"Customer Card", Enum::"BET CLE Operation Type"::Modify);
     end;
 
@@ -142,4 +142,13 @@ codeunit 64851 "Customer Log Manangement"
     begin
         LogCustomerNameAndNoActions(SalesHeader, xSalesHeader);
     end;
+
+    // Debug, može raditi na predvidljiviji način
+    /*
+    [EventSubscriber(ObjectType::Table, Database::Customer, 'OnAfterValidateEvent', 'Address', false, false)]
+    local procedure InsertCustomerLogEntry_OnAfterValidateEvent(var Rec: Record Customer; var xRec: Record Customer; CurrFieldNo: Integer)
+    begin
+        Message('%1', CurrFieldNo);
+    end;
+    */
 }

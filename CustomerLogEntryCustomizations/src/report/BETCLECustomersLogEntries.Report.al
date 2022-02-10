@@ -26,17 +26,21 @@ report 64851 "BET CLE Customers Log Entries"
             column(CurrPageNoCaption; CurrPageNoCaptionLbl)
             {
             }
+            column(No_; "No.")
+            {
+                IncludeCaption = true;
+            }
+            column(Name; Name)
+            {
+                IncludeCaption = true;
+            }
 
             dataitem("BET CLE Customer Log Entry"; "BET CLE Customer Log Entry")
             {
                 DataItemLink = "Customer No." = field("No.");
                 DataItemTableView = sorting("Entry No.");
 
-                column(Customer_No_; "Customer No.")
-                {
-                    IncludeCaption = true;
-                }
-                column(Customer_Name; "Customer Name")
+                column(Entry_No_; "Entry No.")
                 {
                     IncludeCaption = true;
                 }
